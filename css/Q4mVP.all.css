@@ -828,6 +828,17 @@ ul.social-proof li img {
     padding: 24px 8px
 }
 
+/* TILLAGD FÖR TEXTEN I HEADERN */
+#header p {
+    text-decoration: none;
+    color: #666;
+    font-family: "muliregular",sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 24px 8px
+}
+
 @media (min-width: 760px) and (max-width: 900px) {
     #header a {
         font-size:12px;
