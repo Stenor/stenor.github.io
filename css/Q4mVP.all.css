@@ -797,8 +797,7 @@ ul.social-proof li img {
 }
 
 #header .nav-left {
-    float: left;
-    font-size: 14px;
+    float: left
 }
 
 @media (max-width: 759px) {
