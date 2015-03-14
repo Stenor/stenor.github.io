@@ -562,7 +562,33 @@ AGE
                     <!--<a href="how-it-works.html"><img src="assets/img/promo-group-shot-1.png" alt="Meeco"/></a> -->
 
 
-               <div class="circle"> </div> 
+               <!-- <div class="circle"> </div> -->
+
+               <script>
+  function toggleVisibility(id) {
+   var el = document.getElementById(id);
+
+   if (el.style.visibility=="visible") {
+          el.style.visibility="hidden";
+     }
+     else {
+          el.style.visibility="visible";
+     }
+ }
+</script>
+
+<label for="chkemployment">Employment</label>
+<input type="checkbox" id="chkemployment" onChange="toggleVisibility('imgemployment');" /><br/>
+
+
+<label for="chkpopulation">Population</label>
+<input type="checkbox" id="chkpopulation"  onChange="toggleVisibility('imgpopulation');" />
+<hr />
+
+<img id="imgemployment" src="graph1"  style="visibility:hidden"/>
+<img id="imgpopulation" src="graph2"  style="visibility:hidden" />
+
+
               
 
                 </div>
