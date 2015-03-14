@@ -575,12 +575,25 @@ AGE
           el.style.visibility="visible";
      }
 
-     if (Age.checked == false)
+     if (chkemployment.checked == false) 
     {
-      Career and job title.checked = false;
+      chkpopulation.checked = false;
     }
  }
 </script>
+
+<!-- <script type="text/javascript">
+script type="text/javascript">
+ window.onload = function(){
+    var birth = document.getElementById('Age');
+    var year = document.getElementById('job');
+
+    if (birth.checked == false)
+    {
+      year.checked = false;
+    }
+ }
+</script> -->
 
 <label for="chkemployment">Age</label>
 <input type="checkbox" id="chkemployment" onChange="toggleVisibility('imgemployment');" />
