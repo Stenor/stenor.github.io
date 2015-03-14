@@ -158,7 +158,177 @@ AmCharts.makeChart("chartdiv",
 
 </script>
 
+<!-- COMPANIES PIE CHART-->
+<script type="text/javascript">
 
+AmCharts.makeChart("companies",
+
+{
+"type": "pie",
+"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+"titleField": "category",
+"valueField": "column-1",
+"allLabels": [],
+"balloon": {},
+"legend": {
+"align": "center",
+"markerType": "circle"
+},
+"titles": [],
+"dataProvider": [
+{
+"category": "Banking / Insurance [US]",
+"column-1": "500"
+},
+{
+"category": "Pharmaceutical [US]",
+"column-1": "196"
+},
+{
+"category": "Non Profit [US]",
+"column-1": "500"
+},
+{
+"category": "Real Estate [US]",
+"column-1": "153"
+},
+{
+"category": "Retail [US]",
+"column-1": "622"
+},
+{
+"category": "Tech Hardware [US]",
+"column-1": "35"
+},
+{
+"category": "Tech Software [US]",
+"column-1": "131"
+}
+]
+}
+
+);
+
+</script>
+
+
+ADHD
+{
+"type": "serial",
+"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+"categoryField": "category",
+"startDuration": 1,
+"categoryAxis": {
+"gridPosition": "start"
+},
+"trendLines": [],
+"graphs": [
+{
+"colorField": "color",
+"fillAlphas": 1,
+"id": "AmGraph-1",
+"lineColorField": "color",
+"title": "graph 1",
+"type": "column",
+"valueField": "column-1"
+}
+],
+"guides": [],
+"valueAxes": [
+{
+"id": "ValueAxis-1",
+"title": "Axis title"
+}
+],
+"allLabels": [],
+"balloon": {},
+"titles": [
+{
+"id": "Title-1",
+"size": 15,
+"text": "Chart Title"
+}
+],
+"dataProvider": [
+{
+"category": "Banking",
+"column-1": "0"
+},
+{
+"category": "Pharma",
+"column-1": "2156"
+},
+{
+"category": "Retail",
+"column-1": "0"
+},
+{
+"category": "Real Estate",
+"column-1": "0"
+},
+{
+"category": "Non Profit",
+"column-1": "4500"
+}
+]
+}
+AGE
+{
+"type": "serial",
+"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+"categoryField": "category",
+"startDuration": 1,
+"categoryAxis": {
+"gridPosition": "start"
+},
+"trendLines": [],
+"graphs": [
+{
+"colorField": "color",
+"fillAlphas": 1,
+"id": "AmGraph-1",
+"lineColorField": "color",
+"title": "graph 1",
+"type": "column",
+"valueField": "column-1"
+}
+],
+"guides": [],
+"valueAxes": [
+{
+"id": "ValueAxis-1",
+"title": "Axis title"
+}
+],
+"allLabels": [],
+"balloon": {},
+"titles": [
+{
+"id": "Title-1",
+"size": 15,
+"text": "Chart Title"
+}
+],
+"dataProvider": [
+{
+"category": "Banking",
+"column-1": "26000"
+},
+{
+"category": "Pharma",
+"column-1": "2156"
+},
+{
+"category": "Retail",
+"column-1": "3732"
+},
+{
+"category": "Real Estate",
+"column-1": "1989"
+}
+]
+}
   
 </head>
 
@@ -311,7 +481,8 @@ Just in the US, there are at least 500 companies in the Banking / Insurance indu
                     <!--<a href="how-it-works.html"><img src="assets/img/promo-group-shot-1.png" alt="Meeco"/></a> -->
 
 
-                <div class="circle"> </div> 
+               <!-- <div class="circle"> </div> -->
+               <div id="companies" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
 
                 </div>
 
