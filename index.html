@@ -52,7 +52,7 @@
     <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/funnel.js"></script>
 
     <!-- amCharts javascript code -->
-    <script type="text/javascript">
+   <!-- FÖRSTA PYRAMIDEN  <script type="text/javascript">
       AmCharts.makeChart("chartdiv",
         {
           "type": "funnel",
@@ -99,7 +99,62 @@
           ]
         }
       );
-    </script>
+    </script> -->
+
+<script type="text/javascript">
+
+AmCharts.makeChart("chartdiv",
+
+{ "type": "funnel",
+"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+"angle": 14,
+"balloonText": "[[title]]:<b>[[value]]</b>",
+"labelPosition": "right",
+"rotate": true,
+"alphaField": "Not set",
+"marginLeft": 15,
+"marginRight": 160,
+"outlineThickness": 100,
+"titleField": "title",
+"urlField": "Not set",
+"valueField": "value",
+"theme": "default",
+"allLabels": [],
+"balloon": {},
+"titles": [],
+"dataProvider": [
+{
+"title": "Banking / Insurance $",
+"value": "52"
+},
+{
+"title": "Big Pharma $",
+"value": "11"
+},
+{
+"title": "Non Profit / Education $",
+"value": "9"
+},
+{
+"title": "Real Estate $",
+"value": "13"
+},
+{
+"title": "Retail / FMCG $",
+"value": "6"
+},
+{
+"title": "Tech (Hardware) $",
+"value": "20"
+},
+{
+"title": "Tech (Software) $",
+"value": "29"
+}
+]
+}
+
+</script>
 
 
   
