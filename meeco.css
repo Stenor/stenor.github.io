@@ -372,7 +372,7 @@ p {
 }
 
 a {
-    color: #a71930;
+    color: #3099dc;
     text-decoration: none
 }
 
@@ -431,7 +431,7 @@ blockquote.bordered {
 }
 
 blockquote.red {
-    color: #a71930;
+    color: #3099dc;
     font-size: 22px
 }
 
@@ -475,7 +475,7 @@ blockquote .quotemark.end {
 .hero-message {
     font-family: "muliregular",sans-serif;
     font-size: 26px !important;
-    color: #a71930;
+    color: #3099dc;
     padding: 40px 0;
     text-align: center
 }
@@ -535,7 +535,7 @@ blockquote .quotemark.end {
 }
 
 .cta {
-    background-color: #a71930;
+    background-color: #3099dc;
     padding: 0;
     width: 90%;
     border-radius: 12px
@@ -626,10 +626,10 @@ blockquote .quotemark.end {
 
 .btn {
     display: inline-block;
-    background: #a71930;
-    background: -webkit-gradient(linear, left top, left bottom, from(#a71930), to(#91162a));
-    background: -moz-linear-gradient(top, #a71930, #91162a);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a71930', endColorstr='#91162a');
+    background: #3099dc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3099dc), to(#91162a));
+    background: -moz-linear-gradient(top, #3099dc, #91162a);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3099dc', endColorstr='#91162a');
     border: none;
     border-radius: 4px;
     padding: 12px 20px 15px 20px;
@@ -673,7 +673,7 @@ blockquote .quotemark.end {
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
     box-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    color: #a71930 !important
+    color: #3099dc !important
 }
 
 .btn.white:hover {
@@ -704,7 +704,7 @@ blockquote .quotemark.end {
 .promo-video .video-caption {
     position: relative;
     width: 90%;
-    color: #a71930;
+    color: #3099dc;
     font-family: "mulilight",sans-serif;
     font-size: 120%;
     text-align: center;
@@ -861,13 +861,13 @@ ul.social-proof li img {
 }
 
 #header a.invite-menu {
-    border: 1px solid #a71930;
+    border: 1px solid #3099dc;
     border-radius: 4px;
     background: #fff;
     background-clip: padding-box;
     padding: 9px;
     margin-left: 20px;
-    color: #a71930
+    color: #3099dc
 }
 
 @media (min-width: 760px) and (max-width: 900px) {
@@ -885,12 +885,12 @@ ul.social-proof li img {
 }
 
 #header a.invite-menu:hover {
-    background: #a71930;
+    background: #3099dc;
     color: #fff
 }
 
 #header a.login-link {
-    color: #a71930
+    color: #3099dc
 }
 
 
@@ -922,7 +922,7 @@ ul.social-proof li img {
     border-radius: 50%;
     max-width: 400px;
     height: 400px;
-    background-color: #a71930;
+    background-color: #3099dc;
 
     /* width and height can be anything, as long as they're equal */
 }
@@ -1263,7 +1263,7 @@ ul.social-proof li img {
 }
 
 #footer .business-promo a {
-    color: #a71930 !important
+    color: #3099dc !important
 }
 
 #footer #footer-links {
@@ -1279,7 +1279,7 @@ ul.social-proof li img {
 }
 
 #footer #footer-links a:hover {
-    color: #a71930
+    color: #3099dc
 }
 
 #footer #footer-links .footer-col {
@@ -1369,7 +1369,7 @@ ul.social-proof li img {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-family: "mulilight",sans-serif;
-    color: #a71930;
+    color: #3099dc;
     line-height: 1.33
 }
 
@@ -1499,7 +1499,7 @@ ul.social-proof li img {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-family: "mulilight",sans-serif;
-    color: #a71930;
+    color: #3099dc;
     line-height: 1.33
 }
 
@@ -1747,14 +1747,14 @@ ul.social-proof li img {
 .explainer-video {
     margin-top: 100px;
     padding: 20px;
-    border: 2px dotted #a71930;
+    border: 2px dotted #3099dc;
     border-radius: 3px
 }
 
 .explainer-video p {
     font-size: 20px;
     font-weight: bold;
-    color: #a71930;
+    color: #3099dc;
     text-align: center !important;
     padding: 6px 0 0 0;
     margin: 0
@@ -2011,7 +2011,7 @@ ul.social-proof li img {
     font-size: 20px;
     margin: 0;
     padding: 10px 0 0 0;
-    color: #a71930
+    color: #3099dc
 }
 
 #business .half-col {
@@ -2265,7 +2265,7 @@ ul.social-proof li img {
 }
 
 #slideshow-masthead .cycle-pager span.cycle-pager-active {
-    color: #a71930
+    color: #3099dc
 }
 
 #slideshow-masthead .cycle-pager>* {
